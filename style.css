@@ -1,0 +1,256 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* header */
+/* nav */
+nav{
+  background-color: #2c3e50!important;
+  height: 95px;
+  border-bottom: none!important;
+  padding: 30px 0;
+}
+
+.a{
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.a:hover{
+  color: white;
+}
+
+nav a{
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+nav a:hover{
+  text-decoration: none;
+  color: #1ABC9C;
+}
+
+/* jumbotron */
+.jumbotron{
+  background-color: #1abc9c;
+  text-align: center;
+}
+
+.jumbotron img{
+  height: 22%;
+  width: 22%;
+  margin-top: 80px;
+}
+
+.jumbotron h1 {
+  color: white;
+  font-weight: bold;
+}
+
+.jumbotron .linea{
+  border: 2px solid white;
+  display: inline-block;
+  width: 100px;
+  vertical-align: middle;
+  border-radius: 5px;
+  margin: 0 0 30px;
+}
+
+.jumbotron span{
+  font-size: 40px;
+  color: white;
+  margin-left: 20px;
+  padding-top: 10px;
+}
+
+.jumbotron h3 {
+  color: white;
+}
+
+/* main */
+/* portfolio */
+.portfolio{
+  text-align: center;
+}
+
+.portfolio h1{
+  color: #2c3e50!important;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.divisoreb span{
+  font-size: 40px;
+  color: #2c3e50!important;
+  margin-left: 20px;
+  padding-top: 10px;
+}
+
+.divisoreb .linea{
+  border: 2px solid #2c3e50!important;
+  display: inline-block;
+  width: 100px;
+  vertical-align: middle;
+  border-radius: 5px;
+  margin: 0 0 30px;
+}
+
+.sez-img{
+  cursor: pointer;
+  position: relative;
+  margin: 15px;
+}
+
+.sez-img img{
+  width: 100%;
+  height: auto;
+  border-radius: 3%;
+}
+
+.img-hover{
+  background-color: #1AB99E;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 3%;
+}
+
+.img-hover:hover{
+  opacity: 0.8;
+}
+
+/* about */
+.about{
+  background-color: #1ABC9C;
+  text-align: center;
+  padding: 60px;
+}
+
+.about h1{
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.about span{
+  font-size: 40px;
+  color: white;
+  margin-left: 20px;
+  padding-top: 10px;
+}
+
+.about .linea{
+  border: 2px solid white;
+  display: inline-block;
+  width: 100px;
+  vertical-align: middle;
+  border-radius: 5px;
+  margin: 0 0 30px;
+}
+
+.about p{
+  text-align: left;
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+.about button{
+  border: 2px solid white;
+  border-radius: 10px;
+  background: #1ABC9C;
+  color: white;
+  padding: 10px;
+}
+
+.about button> span{
+  font-size: 20px;
+  padding: 10px;
+}
+
+.about button:hover{
+  background: white;
+}
+
+.about button> span:hover{
+  color: black;
+}
+
+/* contactme*/
+.contactme{
+  text-align: center;
+}
+
+.contactme h1{
+  color: #2c3e50!important;
+  font-weight: bold;
+  padding-top: 40px;
+  font-size: 45px;
+}
+
+input, textarea {
+  display: block;
+  text-align: left;
+  font-size: 22px;
+  padding: 10px 0;
+  margin: 15px;
+  border: none;
+  border-bottom: 1px solid grey;
+  width: 100%;
+  color:grey;
+}
+
+.bottone-send{
+  background: #1ABC9C;
+  color: white;
+  border-radius: 10px;
+  font-size: 22px;
+  padding: 20px 25px;
+  width: auto;
+  margin-bottom: 55px;
+}
+
+/* footer */
+.info{
+  background: #2c3e50;
+  text-align: center;
+}
+
+.info h4{
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  padding: 80px 0 20px;
+}
+
+.info p{
+  font-size: 18px;
+  color: white;
+  padding: 10px 45px 80px;
+}
+
+.info span{
+color: #1ABC9C;
+}
+
+.info .boot:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.sez-copyright{
+  background-color: #1a252f;
+  padding: 40px 0;
+}
+
+.sez-copyright .copy {
+  color: white;
+}
